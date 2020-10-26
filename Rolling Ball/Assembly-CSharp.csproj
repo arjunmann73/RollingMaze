@@ -36,7 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Cans.cs" />
+     <Compile Include="Assets\Scripts\MovementCamera.cs" />
      <Compile Include="Assets\Scripts\RollingBall.cs" />
+     <Compile Include="Assets\Scripts\WinZone.cs" />
      <Compile Include="Assets\Scripts\ZoneTrigger.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
