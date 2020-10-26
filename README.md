@@ -6,3 +6,5 @@ Rolling ball in a maze. The main idea of the game is to get through the maze usi
 ## Features
 1. The speed of the ball decreases every time you mess up, making it easier for you to finish the level.
 2. Apart from just WASD, a jump movement has also been added to get through some specific obstacles.
+3. Background music needs to be added, will be done at the end.
+4. Textual instructions at the start of the game need to be given. Movement details need to be given to explain how the game functions. 
