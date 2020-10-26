@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Cans.cs" />
+     <Compile Include="Assets\Scripts\JumpMovement.cs" />
      <Compile Include="Assets\Scripts\MovementCamera.cs" />
      <Compile Include="Assets\Scripts\RollingBall.cs" />
      <Compile Include="Assets\Scripts\WinZone.cs" />
