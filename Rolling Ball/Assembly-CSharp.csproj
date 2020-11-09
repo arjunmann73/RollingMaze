@@ -37,9 +37,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Cans.cs" />
+     <Compile Include="Assets\Scripts\Checkpoint.cs" />
      <Compile Include="Assets\Scripts\ConstantMovement.cs" />
      <Compile Include="Assets\Scripts\CountDownTimer.cs" />
      <Compile Include="Assets\Scripts\JumpMovement.cs" />
+     <Compile Include="Assets\Scripts\MovePlatform.cs" />
+     <Compile Include="Assets\Scripts\MovePlatformForward.cs" />
      <Compile Include="Assets\Scripts\MovementCamera.cs" />
      <Compile Include="Assets\Scripts\RollingBall.cs" />
      <Compile Include="Assets\Scripts\WinZone.cs" />
