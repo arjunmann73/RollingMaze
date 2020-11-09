@@ -1,7 +1,8 @@
 # RollingBall
 Rolling ball in a maze. The main idea of the game is to get through the maze using WASD keys without hitting any of the obstacles in the course. Once an obstacle is hit, you restart the level automatically from the last checkpoint. Once the result position is reached, the scene can just transition out of this level.
-
 ![](imgs/GameField.gif)
+
+## Major Stages
 
 #### 1. Bin Area
 Avoid the bins to reach the first checkpoint, constant movement added to the bins. You will reach the starting point if you hit any of the bins.
@@ -14,4 +15,4 @@ Floor is a trigger with scripts added to relocate player to last checkpoint. In 
 
 #### 3. "Floor is Lava" Area
 Jump from platform to platform in order to reach the goal zone. Relocation to the last checkpoint in case of mess up.
-![](imgs/ThridPart.gif)
+![](imgs/ThirdPart.gif)
