@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class MovePlatformForward : MonoBehaviour
 {
-    private float Sign = -1f;
+
+
+    
     public float start;
     public float end;
+    public float Sign = -1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,5 +28,12 @@ public class MovePlatformForward : MonoBehaviour
         else if (transform.position.z < start){
              Sign = 1f;
         }   
+    }
+
+    private void OnTriggerEnter(Collider other){
+        //print("HERE");
+        if (other.CompareTag("Player")){
+            other.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        }
     }
 }
