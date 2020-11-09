@@ -1,6 +1,8 @@
 # RollingBall
-Rolling ball in a maze. The main idea of the game is to get through the maze using WASD keys without hitting any of the obstacles in the course. Once an obstacle is hit, you restart the level automatically from the last checkpoint. Once the result position is reached, the scene can just transition out of this level.
 ![](imgs/GameField.gif)
+Rolling ball in a maze. The main idea of the game is to get through the maze using WASD keys without hitting any of the obstacles in the course. Once an obstacle is hit, you restart the level automatically from the last checkpoint. Once the result position is reached, the scene can just transition out of this level.
+
+
 
 ## Major Stages
 
