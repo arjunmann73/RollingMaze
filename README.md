@@ -8,3 +8,9 @@ Rolling ball in a maze. The main idea of the game is to get through the maze usi
 2. Apart from just WASD, a jump movement has also been added to get through some specific obstacles.
 3. Background music added, PPAP instrumental remix. 
 4. Textual instructions at the start of the game need to be given. Movement details need to be given to explain how the game functions. 
+
+
+#### 1. LavaRamp Area
+Floor is a trigger with scripts added to relocate player to last checkpoint. In order to clear this area, the player can pass through the thin maze or jump over. User can't skip the stage by jumping to the sides, triggers/colliders are set to check for jumps.
+![](imgs/lavaramp.PNG)
+
