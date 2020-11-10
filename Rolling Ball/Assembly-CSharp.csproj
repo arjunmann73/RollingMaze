@@ -42,6 +42,7 @@
      <Compile Include="Assets\Scripts\CountDownTimer.cs" />
      <Compile Include="Assets\Scripts\FinalCheckpoint.cs" />
      <Compile Include="Assets\Scripts\JumpMovement.cs" />
+     <Compile Include="Assets\Scripts\MovePicture.cs" />
      <Compile Include="Assets\Scripts\MovePlatform.cs" />
      <Compile Include="Assets\Scripts\MovePlatformForward.cs" />
      <Compile Include="Assets\Scripts\MovementCamera.cs" />
