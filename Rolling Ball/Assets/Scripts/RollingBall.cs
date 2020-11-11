@@ -7,7 +7,7 @@ public class RollingBall : MonoBehaviour
     public Rigidbody obj;
     public float hor;
     public float ver;
-    public float speed = 3f;
+    private float speed = 2f;
 
     // Start is called before the first frame update
     void Start()
